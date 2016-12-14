@@ -7,5 +7,11 @@
 ## Expression Syntax
 
 ``` kotlin
-max(strings, { a, b -> a.length < b.length })
+val sum = { x: Int, y: Int -> x + y }
 ```
+
+Et lambda udtryk er altid omgivet af curly brackets, med 
+
+
+
+I dette eksempel kalder vi metoden `max` med 2 parametre: `strings` og ét lambda udtryk. Et lambda d
