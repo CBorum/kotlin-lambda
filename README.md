@@ -6,12 +6,18 @@
 
 ## Expression Syntax
 
+Et lambda udtryk er altid omgivet af curly brackets. På venstre side af pilen har vi input-parametrene, her 2 Ints (x og y) og på højre side har vi udtrykkets body.
+
 ``` kotlin
 val sum = { x: Int, y: Int -> x + y }
 ```
 
-Et lambda udtryk er altid omgivet af curly brackets. På venstre side af pilen har vi input-parametrene, her 2 Ints (x og y) og på højre side har vi udtrykkets body.
+Hvis et lambda udtryk kun har én parameter kan man undlade at definere parametre og kan så bruge `it` som substitut for denne.
+Som vist i eksemplet nedenfor
 
+``` kotlin
+ints.filter { it > 0 }
+```
 
 
 ## Eksempler
