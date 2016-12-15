@@ -42,5 +42,5 @@ I dette eksempel kalder vi metoden `max` med 2 parametre: `strings` og ét lambd
 val ints = listOf(3, 5, 1, 6)
 println(max(ints) {a, b -> a < b})
 ```
-
+I dette eksempel gør vi det samme som overstående bare med heltal istedet
 
