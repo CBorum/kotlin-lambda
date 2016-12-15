@@ -12,6 +12,7 @@ Et lambda udtryk er altid omgivet af curly brackets. På venstre side af pilen h
 val sum = { x: Int, y: Int -> x + y }
 ```
 
+
 Hvis et lambda udtryk kun har én parameter kan man undlade at definere parametre og kan så bruge `it` som substitut for denne.
 Som vist i eksemplet nedenfor
 
